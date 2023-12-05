@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:espi="http://naesb.org/espi" xsi:schemaLocation="http://www.w3.org/2005/Atom https://greenbuttondata.org/xsd/3_3/atom.xsd http://naesb.org/espi https://www.naesb.org/espi.xsd" xml:lang="en-us">
+  <link rel="related" href="https://cert.greenbuttonalliance.org/certificate/16014996-8d13-5f93-8d78-2876085772aa" type="text/html"/>
+  <title>External Energy Usage Green Button Feed</title>
+  <updated>2023-12-05T10:49:06Z</updated>
+  <id>urn:uuid:203b9c82-7c70-5ba1-a16b-197ca39aad4b</id>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:2c75af45-3d93-5581-bd4f-4efec4454129</id>
+    <title>DST For North America</title>
+    <published>2023-12-05T10:49:06Z</published>
+    <updated>2023-12-05T10:49:06Z</updated>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/LocalTimeParameters" type="espi-feed/LocalTimeParameters"/>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/LocalTimeParameters/c4ca42_1" type="espi-entry/LocalTimeParameters"/>
+    <content>
+      <espi:LocalTimeParameters>
+        <espi:dstEndRule>B40E2000</espi:dstEndRule>
+        <espi:dstOffset>3600</espi:dstOffset>
+        <espi:dstStartRule>360E2000</espi:dstStartRule>
+        <espi:tzOffset>-21600</espi:tzOffset>
+      </espi:LocalTimeParameters>
+    </content>
+  </entry>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:4849785a-3fa6-525f-b856-d603d4692ac6</id>
+    <title>Usage Point</title>
+    <published>2023-12-05T10:49:06Z</published>
+    <updated>2023-12-05T10:49:06Z</updated>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI" type="espi-entry/UsagePoint"/>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint" type="espi-feed/UsagePoint"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading" type="espi-feed/MeterReading"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/UsageSummary" type="espi-feed/UsageSummary"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/LocalTimeParameters/c4ca42_1" type="espi-entry/LocalTimeParameters"/>
+    <content>
+      <espi:UsagePoint>
+        <espi:ServiceCategory>
+          <espi:kind>0</espi:kind>
+        </espi:ServiceCategory>
+      </espi:UsagePoint>
+    </content>
+  </entry>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:5485ab87-c7bd-5dec-bdc8-a57d34f964a2</id>
+    <title>UsageSummary</title>
+    <published>2023-12-05T10:49:06Z</published>
+    <updated>2023-12-05T10:49:06Z</updated>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/UsageSummary/206429da98146ed500a27348941c6e69d9a5196a_AMI" type="espi-entry/UsageSummary"/>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/UsageSummary" type="espi-feed/UsageSummary"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI" type="espi-feed/UsagePoint"/>
+    <content>
+      <espi:UsageSummary>
+        <espi:billingPeriod>
+          <espi:duration>755136000</espi:duration>
+          <espi:start>946706400</espi:start>
+        </espi:billingPeriod>
+        <espi:billLastPeriod>0</espi:billLastPeriod>
+        <espi:billToDate>0</espi:billToDate>
+        <espi:costAdditionalLastPeriod>0</espi:costAdditionalLastPeriod>
+        <espi:currency>840</espi:currency>
+        <espi:overallConsumptionLastPeriod>
+          <espi:powerOfTenMultiplier>-3</espi:powerOfTenMultiplier>
+          <espi:timeStamp>944024400</espi:timeStamp>
+          <espi:uom>72</espi:uom>
+          <espi:value>0</espi:value>
+        </espi:overallConsumptionLastPeriod>
+        <espi:currentBillingPeriodOverAllConsumption>
+          <espi:powerOfTenMultiplier>-3</espi:powerOfTenMultiplier>
+          <espi:timeStamp>944024400</espi:timeStamp>
+          <espi:uom>72</espi:uom>
+          <espi:value>0</espi:value>
+        </espi:currentBillingPeriodOverAllConsumption>
+        <espi:qualityOfReading>14</espi:qualityOfReading>
+        <espi:statusTimeStamp>1701794946</espi:statusTimeStamp>
+      </espi:UsageSummary>
+    </content>
+  </entry>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:5246cda4-2ab1-5ba6-b643-b71c30da42c7</id>
+    <title>Meter Reading</title>
+    <published>2023-12-05T10:49:33Z</published>
+    <updated>2023-12-05T10:49:33Z</updated>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/MeterReading"/>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading" type="espi-feed/MeterReading"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI" type="espi-entry/UsagePoint"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8/IntervalBlock" type="espi-feed/IntervalBlock"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/ReadingType/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/ReadingType"/>
+    <content>
+      <espi:MeterReading/>
+    </content>
+  </entry>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:6f4f40c8-bff1-5882-b6a9-f60c16cc2195</id>
+    <title>Energy Delivered (kWh)</title>
+    <published>2023-12-05T10:49:33Z</published>
+    <updated>2023-12-05T10:49:33Z</updated>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/ReadingType/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/ReadingType"/>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/ReadingType" type="espi-feed/ReadingType"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/MeterReading"/>
+    <content>
+      <espi:ReadingType xmlns="http://naesb.org/espi">
+        <espi:accumulationBehaviour>4</espi:accumulationBehaviour>
+        <espi:commodity>1</espi:commodity>
+        <espi:currency>840</espi:currency>
+        <espi:dataQualifier>12</espi:dataQualifier>
+        <espi:flowDirection>1</espi:flowDirection>
+        <espi:intervalLength>0</espi:intervalLength>
+        <espi:kind>12</espi:kind>
+        <espi:phase>0</espi:phase>
+        <espi:powerOfTenMultiplier>-3</espi:powerOfTenMultiplier>
+        <espi:timeAttribute>0</espi:timeAttribute>
+        <espi:uom>72</espi:uom>
+      </espi:ReadingType>
+    </content>
+  </entry>
+  <entry xmlns:espi="http://naesb.org/espi">
+    <id>urn:uuid:4495e8ff-70c5-5a40-9dd5-91f311dd2a2f</id>
+    <title>Interval Block</title>
+    <published>2023-12-05T10:49:33Z</published>
+    <updated>2023-12-05T10:49:33Z</updated>
+    <link rel="self" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8/IntervalBlock/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/IntervalBlock"/>
+    <link rel="up" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8/IntervalBlock" type="espi-feed/IntervalBlock"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/UsagePoint/206429da98146ed500a27348941c6e69d9a5196a_AMI/MeterReading/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/MeterReading"/>
+    <link rel="related" href="https://myenergy.xcelenergy.com/greenbutton-connect/gbc/espi/1_1/resource/ReadingType/aa9eb585-5686-56d8-b644-5f094092a0a8" type="espi-entry/ReadingType"/>
+    <content>
+      <espi:IntervalBlock xmlns="http://naesb.org/espi">
+        <espi:interval>
+          <duration>755136000</duration>
+          <start>946706400</start>
+        </espi:interval>
+        <espi:IntervalReading>
+          <espi:cost>0</espi:cost>
+          <espi:timePeriod>
+            <espi:duration>755136000</espi:duration>
+            <espi:start>946706400</espi:start>
+          </espi:timePeriod>
+          <espi:value>0</espi:value>
+        </espi:IntervalReading>
+      </espi:IntervalBlock>
+    </content>
+  </entry>
+</feed>
